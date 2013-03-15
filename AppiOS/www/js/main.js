@@ -4,7 +4,7 @@ Edward M Murray Jr
 ASD 1301
 */
 //
-$(function twitData(){
+$(function(){
 	$.getJSON("http://search.twitter.com/search.json?q=%23DuckDynasty&rpp=5&include_entities=true&result_type=popular&callback=?",
 	function(data){
 		console.log(data);
@@ -15,7 +15,4 @@ $(function twitData(){
 		}
 	}
 	);
-	
-	var twitterLink = $('twitterLink');
-	twitterLink.on("click", twitData);
 });
