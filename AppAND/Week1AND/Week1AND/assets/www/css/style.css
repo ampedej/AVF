@@ -1,0 +1,219 @@
+@charset "utf-8";
+/*
+Week 1
+Edward M Murray Jr
+AVF 1303
+CSS Document
+*/
+
+html {background: url(../img/app_bg.jpg); }
+
+/* General Body Styles */
+body {	font-family: Verdana, Geneva, sans-serif;
+		margin: 0 0 0 0;
+		padding: 0; 
+}
+
+
+/*Header styles, (gradient for 4 different browsers)*/
+header {background-color: #fff;
+		background: -moz-linear-gradient(top, #fefefe 0%,#ececec 100%);
+		background: -webkit-linear-gradient(top,  #fefefe 0%,#ececec 100%);
+		background: -ms-linear-gradient(top, #fefefe 0%,#ececec 100%);
+		background: linear-gradient(to bottom, #fefefe 0%,#ececec 100%);
+		border-bottom: 2px solid #ccc;
+		height: 45px;
+		box-shadow: 2px 2px 3px #e4e5e4;
+		margin-bottom: -10px;
+}
+
+/*Page header*/
+h1 { margin: 0px auto;
+	 padding: 5px;
+	 color: #000;
+	 font: Verdana, Geneva, sans-serif;
+	 font-weight: bold;
+	 font-size: 24px;
+	 text-align: center;
+	 text-shadow: 2px 2px #fff;
+}
+
+/*Sub Heading for sections*/
+h2 { margin: 0 0 0 0;
+	 text-shadow: 2px 2px #fff; 
+}
+
+/*Section for name and term #*/
+section#myinfo { margin: 12px 0 0 0;
+			   padding: 2px;
+			   height: auto; 
+}
+			   
+/*Style for the fieldsets*/
+section#nativeFeatures { 
+		   border: 2px solid #ccc; 
+		   border-radius: 10px;
+		   background: -moz-linear-gradient(top, #fefefe 0%,#ececec 100%);
+		   background: -webkit-linear-gradient(top,  #fefefe 0%,#ececec 100%);
+		   background: -ms-linear-gradient(top, #fefefe 0%,#ececec 100%);
+		   background: linear-gradient(to bottom, #fefefe 0%,#ececec 100%);
+		   margin: auto; 
+		   text-align: center; 
+}
+
+section#apiData { 
+		   border: 2px solid #ccc; 
+		   border-radius: 10px;
+		   background: -moz-linear-gradient(top, #fefefe 0%,#ececec 100%);
+		   background: -webkit-linear-gradient(top,  #fefefe 0%,#ececec 100%);
+		   background: -ms-linear-gradient(top, #fefefe 0%,#ececec 100%);
+		   background: linear-gradient(to bottom, #fefefe 0%,#ececec 100%);
+		   margin: auto; 
+		   text-align: center;
+		   margin: 10px auto; 
+		   text-align: center; 
+}
+		   
+/*Style for the fieldset titles*/
+legend { color: #1A2322;
+		 background-color: #cfcfcf;
+		 font-size: 18px;
+		 font-weight: bold;
+		 text-align:left;
+		 text-shadow: 1px 1px #fff; 
+}
+		 
+/*Styling for information*/
+ul#info { padding: 10px 0 0 50px;
+		  font-family: fantasy;
+		  font-weight: bolder;
+		  font-size: 24px;		  
+}
+		  
+/*General ul styling*/
+ul { line-height: 35px;
+	 margin-left: -35px;
+	 list-style-type: none;
+}
+	 
+/*General li styling*/
+li { color: #1A2322;
+	 line-height: 25px;
+}
+						  
+/*Styling for the native feature items*/
+li#nat { color: #fff;
+		 text-shadow: -1px -1px #000;
+		 position: center;
+		 padding-top: 10px;
+		 font-size: 18px;
+		 font-weight: bold;
+		 text-align: center;
+		 width: 90%;
+		 margin: 5px auto;
+		 height: 38px; 
+		 border: 2px solid #ccc; 
+		 display: block;
+		 border-radius: 10px;
+		 background: -moz-linear-gradient(top, #484847 0%,#282828 100%);
+		 background: -webkit-linear-gradient(top,  #484847 0%,#282828 100%);
+		 background: -ms-linear-gradient(top, #484847 0%,#282828 100%);
+		 background: linear-gradient(to bottom, #484847 0%,#282828 100%); 
+}
+						  
+/*Styling for the API Data items*/
+li#api { color: #fff;
+		 text-shadow: -1px -1px #000;
+		 position: center;
+		 padding-top: 10px;
+		 font-size: 18px;
+		 font-weight: bold;
+		 text-align: center;
+		 width: 90%;
+		 margin: 5px auto;
+		 height: 38px; 
+		 border: 2px solid #ccc; 
+		 display: block;
+		 border-radius: 10px;
+		 background: -moz-linear-gradient(top, #7188bb 0%,#325094 100%);
+		 background: -webkit-linear-gradient(top,  #7188bb 0%,#325094 100%);
+		 background: -ms-linear-gradient(top, #7188bb 0%,#325094 100%);
+		 background: linear-gradient(to bottom, #7188bb 0%,#325094 100%); 
+}
+
+/*Research section h2 styling*/
+h2#research { margin-left: 10px;
+	
+}
+
+section#week1res { padding: 10px;
+	
+}
+
+a {text-decoration: none;
+}
+
+li#api a:visited {color: #FFF;}
+
+header#results { margin-bottom: 10px;
+				 background-color: #fff;
+				 background: -moz-linear-gradient(top, #fefefe 0%,#ececec 100%);
+				 background: -webkit-linear-gradient(top,  #fefefe 0%,#ececec 100%);
+				 background: -ms-linear-gradient(top, #fefefe 0%,#ececec 100%);
+				 background: linear-gradient(to bottom, #fefefe 0%,#ececec 100%);
+				 border-bottom: 2px solid #ccc;
+				 height: 45px;
+				 box-shadow: 2px 2px 3px #e4e5e4;
+}
+
+ul#twitter-data {  border: 2px solid #ccc; 
+				   width: 85%;
+		   		   border-radius: 10px;
+		   		   background: -moz-linear-gradient(top, #fefefe 0%,#ececec 100%);
+		   		   background: -webkit-linear-gradient(top,  #fefefe 0%,#ececec 100%);
+		   		   background: -ms-linear-gradient(top, #fefefe 0%,#ececec 100%);
+		   		   background: linear-gradient(to bottom, #fefefe 0%,#ececec 100%);
+		   		   margin: auto; 
+		   		   text-align: left;
+}
+
+ul#twitter-data p { font-size: 18px;
+	border-radius: 5px;
+	font-family: sans-serif;
+	text-shadow: 2px 2px #fff;
+	border: 2px solid #ccc;
+	background-color: #fff;
+	padding: 10px;
+	width: 93%;
+}
+
+em { color: #07d0ff;
+	 font-size: 14px;
+	
+}
+
+header#weather { margin-bottom: 10px;
+				 background-color: #fff;
+				 background: -moz-linear-gradient(top, #fefefe 0%,#ececec 100%);
+				 background: -webkit-linear-gradient(top,  #fefefe 0%,#ececec 100%);
+				 background: -ms-linear-gradient(top, #fefefe 0%,#ececec 100%);
+				 background: linear-gradient(to bottom, #fefefe 0%,#ececec 100%);
+				 border-bottom: 2px solid #ccc;
+				 height: 45px;
+				 box-shadow: 2px 2px 3px #e4e5e4;
+}
+
+ul#weather-data {  border: 2px solid #ccc; 
+				   width: 60%;
+		   		   border-radius: 10px;
+		   		   background: -moz-linear-gradient(top, #fefefe 0%,#ececec 100%);
+		   		   background: -webkit-linear-gradient(top,  #fefefe 0%,#ececec 100%);
+		   		   background: -ms-linear-gradient(top, #fefefe 0%,#ececec 100%);
+		   		   background: linear-gradient(to bottom, #fefefe 0%,#ececec 100%);
+		   		   margin: auto; 
+		   		   text-align: left;
+}
+
+ul#weather-data li { padding: 10px;
+	
+}
