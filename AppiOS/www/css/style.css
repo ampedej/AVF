@@ -177,7 +177,7 @@ ul#twitter-data {  border: 2px solid #ccc;
 		   		   text-align: left;
 }
 
-p { font-size: 18px;
+ul#twitter-data p { font-size: 18px;
 	border-radius: 5px;
 	font-family: sans-serif;
 	text-shadow: 2px 2px #fff;
@@ -192,3 +192,28 @@ em { color: #07d0ff;
 	
 }
 
+header#weather { margin-bottom: 10px;
+				 background-color: #fff;
+				 background: -moz-linear-gradient(top, #fefefe 0%,#ececec 100%);
+				 background: -webkit-linear-gradient(top,  #fefefe 0%,#ececec 100%);
+				 background: -ms-linear-gradient(top, #fefefe 0%,#ececec 100%);
+				 background: linear-gradient(to bottom, #fefefe 0%,#ececec 100%);
+				 border-bottom: 2px solid #ccc;
+				 height: 45px;
+				 box-shadow: 2px 2px 3px #e4e5e4;
+}
+
+ul#weather-data {  border: 2px solid #ccc; 
+				   width: 60%;
+		   		   border-radius: 10px;
+		   		   background: -moz-linear-gradient(top, #fefefe 0%,#ececec 100%);
+		   		   background: -webkit-linear-gradient(top,  #fefefe 0%,#ececec 100%);
+		   		   background: -ms-linear-gradient(top, #fefefe 0%,#ececec 100%);
+		   		   background: linear-gradient(to bottom, #fefefe 0%,#ececec 100%);
+		   		   margin: auto; 
+		   		   text-align: left;
+}
+
+ul#weather-data li { padding: 10px;
+	
+}

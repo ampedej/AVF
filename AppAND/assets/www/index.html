@@ -14,58 +14,59 @@ AVF 1303
         <meta name="robots" content="index, follow"/>
         <meta name="viewport" content="user-scalable=yes, width=device-width" />
         <meta name = "viewport" content="target-densitydpi=device-dpi"/>
-        <meta name = "HandHeldFriendly" contest="True"/>
+        <meta name = "HandHeldFriendly" contest="True" />
         <meta name="MobileOptimized" content="320"/>
         <!--Stylesheets-->
         <link href="css/style.css" rel="stylesheet" />
+        
+        <!-- JavaScript is normally at the end of the body, except for Modernizr which enables HTML5 elements & feature detects -->
 
         <!-- Page Title -->
         <title>AVF Demo App</title>
 	</head>
 	<body>
-	 <!-- Header -->
+		<!--DataBase  Data Page-->
+	<div data-role="page" id="home">
 		<header>
             <h1>AVF Demo App</h1>
         </header>
-         <!-- Information Section -->
-        <section id = "info">
+		<!-- Information Section -->
+        <section id = "myinfo">
 			<ul id = "info">
 				<li>Edward M Murray Jr</li>
 				<li>AVF 1303</li>
 			</ul>
 		</section>
-		 <!-- Native Features Section -->
-		<section id="container">
-			<fieldset id = "nativeFeatures">
-				<h2>Native App Features</h2>
+		<!-- Native Features Section -->
+		<section id="nativeFeatures">
+			<h2>Native App Features</h2>
 				<ul id = nat>
-					<li id = nat>Accelerometer</li>
-					<li id = nat>Camera</li>
-					<li id = nat>Geolocation</li>
-					<li id = nat>Storage</li>
+					<li id = "nat">Accelerometer</li>
+					<li id = "nat">Camera</li>
+					<li id = "nat">Geolocation</li>
+					<li id = "nat">Storage</li>
 				</ul>	
-			</fieldset>
 		</section>
 		<!-- API Data Section -->
-		<section id="container">
-			<fieldset id = "apiData">
-				<h2>API Data Resources</h2>
+		<section id="apiData">
+			<h2>API Data Resources</h2>
 				<ul id = nat>
-					<li id = api>Twitter</li>
-					<li id = api>Facebook</li>
-					<li id = api>Yelp</li>
+					<li id = "api"><a href="twitter.html" id="twitterlink">Twitter</a></li>
+					<li id = "api"><a href="weather.html" id="testlink">Weather</a></li>
+					<li id = "api">Yelp</li>
 				</ul>	
-			</fieldset>
 		</section>
 		<!-- Research Links Section -->
-		<section id="research">
-				<h2 id = "research">Research</h2>
+		<section id="researchLinks">
+			<h2 id = "research">Research</h2>
 				<ul id = "links">
-					<a href="week1res.html">Week 1: Industry research & Project intent</a><br>
-					<a href="#">Week 2: Research</a><br>
-					<a href="#">Week 3: Research</a>
+					<li><a href="week1res.html">Week 1: Industry research & Project intent</a></li><br />
+					<li><a href="week2res.html">Week 2: Accessibility</a></li><br />
+					<li><a href="#">Week 3: Research</a></li>
 				</ul>	
 		</section>
+	</div>
+		<script src="jquery-1.8.3.min.js"></script>
 		<script type="text/javascript" src="js/main.js"></script>
     </body>
 </html>
