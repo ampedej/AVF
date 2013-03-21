@@ -11,13 +11,23 @@ and (min-device-width: 320px)
 and (max-device-width : 480px) {
 	ul#links { font-size: 0.5em;}
 	h1#maptitle { font-size: 1.0em;}
+	div#staticmap img { height:300px;
+					  width: 300px;
+	}
 }
 
 @media screen
-and (min-device-width: 768px)
+and (min-device-width: 768px){
+	div#staticmap img { height:600px;
+					  	width: 600px;
+	}
+}
 and (max-device-width : 1024px) {
 	ul#links { font-size: 1.5em;}
 	h1#maptitle { font-size: 1.5em;}
+	div#staticmap img { height:800px;
+					    width: 800px;
+	}
 }
 
 html {background: url(../img/app_bg.jpg); }

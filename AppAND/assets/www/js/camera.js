@@ -1,7 +1,7 @@
 /*
-Project 4
+Week 3
 Edward M Murray Jr
-ASD 1301
+AVF 1303
 */
 //
 document.addEventListener("deviceready",onDeviceReady,false);
@@ -9,7 +9,7 @@ document.addEventListener("deviceready",onDeviceReady,false);
         pictureSource=navigator.camera.PictureSourceType;
         destinationType=navigator.camera.DestinationType;
     }
-    
+    //Function vars
     var pictureSource;   
     var destinationType;
 
@@ -47,7 +47,7 @@ document.addEventListener("deviceready",onDeviceReady,false);
     function onFail(message) {
       alert("No photo was taken");
     }
-    
+    //Device connection function
     function checkConnection() {
         var networkState = navigator.network.connection.type;
 
@@ -62,7 +62,7 @@ document.addEventListener("deviceready",onDeviceReady,false);
 
         alert('Connection type: ' + states[networkState]);
     }
-    
+    //Device properties function
     function DeviceProperties() {
         alert('Device Name: '     + device.name     + '\n' + 
               'Device Platform: ' + device.platform + '\n' + 

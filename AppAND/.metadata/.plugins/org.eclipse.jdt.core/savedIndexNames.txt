@@ -1,7 +1,0 @@
-INDEX VERSION 1.126+/Users/edwardmurray/Documents/AVF/AppAND/.metadata/.plugins/org.eclipse.jdt.core
-1445880144.index
-378236444.index
-2910029765.index
-871251181.index
-634993957.index
-3246061094.index
