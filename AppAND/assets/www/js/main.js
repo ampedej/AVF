@@ -1,7 +1,7 @@
 /*
-Project 4
+Week 3
 Edward M Murray Jr
-ASD 1301
+AVF 1303
 */
 //
 $(function(){

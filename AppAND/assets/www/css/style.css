@@ -1,10 +1,34 @@
 @charset "utf-8";
 /*
-Week 1
+Week 3
 Edward M Murray Jr
 AVF 1303
 CSS Document
 */
+
+@media screen
+and (min-device-width: 320px)
+and (max-device-width : 480px) {
+	ul#links { font-size: 0.5em;}
+	h1#maptitle { font-size: 1.0em;}
+	div#staticmap img { height:300px;
+					  width: 300px;
+	}
+}
+
+@media screen
+and (min-device-width: 768px){
+	div#staticmap img { height:600px;
+					  	width: 600px;
+	}
+}
+and (max-device-width : 1024px) {
+	ul#links { font-size: 1.5em;}
+	h1#maptitle { font-size: 1.5em;}
+	div#staticmap img { height:800px;
+					    width: 800px;
+	}
+}
 
 html {background: url(../img/app_bg.jpg); }
 
@@ -12,6 +36,7 @@ html {background: url(../img/app_bg.jpg); }
 body {	font-family: Verdana, Geneva, sans-serif;
 		margin: 0 0 0 0;
 		padding: 0; 
+		font: normal 100%;
 }
 
 
@@ -33,13 +58,13 @@ h1 { margin: 0px auto;
 	 color: #000;
 	 font: Verdana, Geneva, sans-serif;
 	 font-weight: bold;
-	 font-size: 24px;
+	 font-size: 1.5em;
 	 text-align: center;
 	 text-shadow: 2px 2px #fff;
 }
 
 /*Sub Heading for sections*/
-h2 { margin: 0 0 0 0;
+h2 { margin: 10px auto;
 	 text-shadow: 2px 2px #fff; 
 }
 
@@ -101,26 +126,6 @@ li { color: #1A2322;
 	 line-height: 25px;
 }
 						  
-/*Styling for the native feature items*/
-li#nat { color: #fff;
-		 text-shadow: -1px -1px #000;
-		 position: center;
-		 padding-top: 10px;
-		 font-size: 18px;
-		 font-weight: bold;
-		 text-align: center;
-		 width: 90%;
-		 margin: 5px auto;
-		 height: 38px; 
-		 border: 2px solid #ccc; 
-		 display: block;
-		 border-radius: 10px;
-		 background: -moz-linear-gradient(top, #484847 0%,#282828 100%);
-		 background: -webkit-linear-gradient(top,  #484847 0%,#282828 100%);
-		 background: -ms-linear-gradient(top, #484847 0%,#282828 100%);
-		 background: linear-gradient(to bottom, #484847 0%,#282828 100%); 
-}
-						  
 /*Styling for the API Data items*/
 li#api { color: #fff;
 		 text-shadow: -1px -1px #000;
@@ -154,6 +159,10 @@ a {text-decoration: none;
 }
 
 li#api a:visited {color: #FFF;}
+li#nat a:visited {color: #FFF;}
+
+li#api a {color:#FFF;}
+li#nat a {color:#FFF;}
 
 header#results { margin-bottom: 10px;
 				 background-color: #fff;
@@ -178,13 +187,13 @@ ul#twitter-data {  border: 2px solid #ccc;
 }
 
 ul#twitter-data p { font-size: 18px;
-	border-radius: 5px;
-	font-family: sans-serif;
-	text-shadow: 2px 2px #fff;
-	border: 2px solid #ccc;
-	background-color: #fff;
-	padding: 10px;
-	width: 93%;
+					border-radius: 5px;
+					font-family: sans-serif;
+					text-shadow: 2px 2px #fff;
+					border: 2px solid #ccc;
+					background-color: #fff;
+					padding: 10px;
+					width: 93%;
 }
 
 em { color: #07d0ff;
@@ -217,3 +226,21 @@ ul#weather-data {  border: 2px solid #ccc;
 ul#weather-data li { padding: 10px;
 	
 }
+
+button#nat { color: #fff;
+		 text-shadow: -1px -1px #000;
+		 position: center;
+		 font-size: 18px;
+		 font-weight: bold;
+		 width: 90%;
+		 margin: 5px auto;
+		 height: 50px; 
+		 border: 2px solid #ccc; 
+		 border-radius: 10px;
+		 background: -moz-linear-gradient(top, #484847 0%,#282828 100%);
+		 background: -webkit-linear-gradient(top,  #484847 0%,#282828 100%);
+		 background: -ms-linear-gradient(top, #484847 0%,#282828 100%);
+		 background: linear-gradient(to bottom, #484847 0%,#282828 100%);  
+}
+
+div#staticmap {text-align: center; }
