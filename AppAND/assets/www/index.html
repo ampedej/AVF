@@ -37,9 +37,9 @@ AVF 1303
 		<section id="nativeFeatures">
 			<h2>Native App Features</h2>
 				<ul id = "nat">
-					<button id = "nat">Accelerometer</button>
+					<button id = "nat" onclick="checkConnection()">Connection</button>
 					<a href= "geo.html"><button id = "nat">Map</button></a>
-					<button id = "nat">Geolocation</button>
+					<button id = "nat" onclick="DeviceProperties()">Device</button>
 					<button id = "nat" onclick="capturePhoto();">Take Photo</a></button>
 				</ul>	
 		</section>
@@ -60,6 +60,13 @@ AVF 1303
 					<li><a href="week2res.html">Week 2: Accessibility</a></li><br />
 					<li><a href="#">Week 3: Research</a></li>
 				</ul>	
+		</section>
+		<section id="video">
+			<video width="320" height="240" controls>
+				<source src="movie.mp4" type="video/mp4">
+				<source src="movie.f4v" type="video/f4v">
+				Your browser does not support the video tag.
+			</video>
 		</section>
 	</div>
 		<script src="jquery-1.8.3.min.js"></script>

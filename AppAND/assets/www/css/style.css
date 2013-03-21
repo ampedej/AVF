@@ -17,6 +17,7 @@ and (max-device-width : 480px) {
 and (min-device-width: 768px)
 and (max-device-width : 1024px) {
 	ul#links { font-size: 1.5em;}
+	h1#maptitle { font-size: 1.5em;}
 }
 
 html {background: url(../img/app_bg.jpg); }
@@ -176,13 +177,13 @@ ul#twitter-data {  border: 2px solid #ccc;
 }
 
 ul#twitter-data p { font-size: 18px;
-	border-radius: 5px;
-	font-family: sans-serif;
-	text-shadow: 2px 2px #fff;
-	border: 2px solid #ccc;
-	background-color: #fff;
-	padding: 10px;
-	width: 93%;
+					border-radius: 5px;
+					font-family: sans-serif;
+					text-shadow: 2px 2px #fff;
+					border: 2px solid #ccc;
+					background-color: #fff;
+					padding: 10px;
+					width: 93%;
 }
 
 em { color: #07d0ff;
