@@ -22,7 +22,7 @@ AVF 1303
         <!-- Page Title -->
         <title>AVF Demo App</title>
 	</head>
-	<body>
+	<body onload="checkConnection()">
 	<!-- Twitter Page -->
 	<div data-role="page" id="twitter">
     <!-- Header -->
@@ -31,10 +31,12 @@ AVF 1303
         </header>
         <section>
         <a href = "index.html">Back</a>
+        <h2 id="twitresults"></h2>
         	<ul id="twitter-data">
         	</ul>
 		</section>
 	</div>
+		<script type="text/javascript" src="cordova-2.5.0.js"></script>
 		<script src="jquery-1.8.3.min.js"></script>
 		<script type="text/javascript" src="js/main.js"></script>
     </body>
