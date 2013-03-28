@@ -22,9 +22,9 @@ AVF 1303
         <!-- Page Title -->
         <title>AVF Demo App</title>
 	</head>
-	<body>
+	<body onload="onDeviceReady()">
 	<!-- Twitter Page -->
-	<div data-role="page" id="weatherß">
+	<div data-role="page" id="weather">
     <!-- Header -->
 		<header id="weather">
             <h1>weather:</h1>
@@ -32,11 +32,12 @@ AVF 1303
         <section>
         <a href = "index.html">Back</a>
         	<ul id="weather-data">
-        	</ul>
+        	</ul><br />
+        	<div id = "staticmap"</div>
 		</section>
 	</div>
-	<script src="1.5.1-jquery.min.js"></script>
 	<script src="jquery-1.8.3.min.js"></script>
 	<script type="text/javascript" src="js/main2.js"></script>
+	<script type="text/javascript" src="cordova-2.5.0.js"></script>
     </body>
 </html>

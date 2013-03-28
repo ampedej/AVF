@@ -68,6 +68,12 @@ h2 { margin: 10px auto;
 	 text-shadow: 2px 2px #fff; 
 }
 
+h2#twitresults { margin: 10px auto;
+	 			 text-shadow: 2px 2px #fff;
+	 			 font-size: 1.0em;
+	 			 text-align: center 
+}
+
 /*Section for name and term #*/
 section#myinfo { margin: 12px 0 0 0;
 			   padding: 2px;
@@ -241,6 +247,22 @@ button#nat { color: #fff;
 		 background: -webkit-linear-gradient(top,  #484847 0%,#282828 100%);
 		 background: -ms-linear-gradient(top, #484847 0%,#282828 100%);
 		 background: linear-gradient(to bottom, #484847 0%,#282828 100%);  
+}
+
+button#api { color: #fff;
+		 text-shadow: -1px -1px #000;
+		 position: center;
+		 font-size: 18px;
+		 font-weight: bold;
+		 width: 90%;
+		 margin: 5px auto;
+		 height: 50px; 
+		 border: 2px solid #ccc; 
+		 border-radius: 10px;
+		 background: -moz-linear-gradient(top, #7188bb 0%,#325094 100%);
+		 background: -webkit-linear-gradient(top,  #7188bb 0%,#325094 100%);
+		 background: -ms-linear-gradient(top, #7188bb 0%,#325094 100%);
+		 background: linear-gradient(to bottom, #7188bb 0%,#325094 100%);  
 }
 
 div#staticmap {text-align: center; }
